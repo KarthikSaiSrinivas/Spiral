@@ -8,7 +8,7 @@ turtle.speed(0)
   
 while (True):  
     for i in range(6):  
-        for colors in ["red", "blue", "magenta", "green", "yellow", "white"]:  
+        for colors in ["red", "blue", "magenta", "green", "yellow", "white", "cyan"]:  
             turtle.color(colors)  
             turtle.circle(150)  
             turtle.left(10)  
